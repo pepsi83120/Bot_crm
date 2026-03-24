@@ -7,7 +7,7 @@ import threading
 import requests
 from datetime import datetime, timedelta
 from dotenv import load_dotenv
-load_dotenv(r"C:\Users\leoqu\Desktop\.env")
+load_dotenv
 
 # ============================================================
 #  CONFIGURATION
