@@ -13,7 +13,7 @@ load_dotenv(r"C:\Users\leoqu\Desktop\.env")
 #  CONFIGURATION
 # ============================================================
 BOT_TOKEN    = os.environ.get("CRM_BOT_TOKEN")
-ADMIN_ID     = int(os.environ.get("ADMIN_ID", "0"))
+ADMIN_ID     = int(os.environ.get("ID ADMIN", "0"))
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
 
 if not BOT_TOKEN:
